@@ -4,12 +4,35 @@
   box-sizing: border-box;
 }
 
-.main-visual {
+body {
+  font-family:'Hiragino Kaku Gothic ProN' 'Arial', sans-serif;
+  color: #24292E;
+
+.mywork-index-header{
+  width: 100%;
+  margin:121px auto 122px;
+  .mywork-index-title{
+
+  }
+  .mywork-index-nav{
+    .mywork-index-nav-list{
+      .mywork-index-nav-item{
+        a{
+          text-decoration: none;
+          color: #24292E;
+        }
+      }
+    }
+  }
+}
+
+.mywork-index-main-visual {
   width: 100%;
   overflow: hidden;
   img{
     width: 100%;
-    height: 100%;
+    height: 420px;
     object-fit: cover;
   }
+}
 }
