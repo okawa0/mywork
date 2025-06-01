@@ -4,22 +4,55 @@
   box-sizing: border-box;
 }
 
-body {
+.mywork-index-body {
   font-family:'Hiragino Kaku Gothic ProN' 'Arial', sans-serif;
   color: #24292E;
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+    width: 100vw;
+  }
 
 .mywork-index-header{
-  width: 100%;
+  display: flex;
+  width: 960px;
   margin:121px auto 122px;
+  padding: 0 4%;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    margin:  20px auto;
+    padding: 0 2%;
+    flex-direction: column;
+    max-width: 960px;
+    gap: 0.5rem; 
+    font-size: 0.8em;
+  }
   .mywork-index-title{
-
   }
   .mywork-index-nav{
     .mywork-index-nav-list{
+      display: flex;
+      gap: 1.5rem;
       .mywork-index-nav-item{
+        list-style: none;
         a{
           text-decoration: none;
           color: #24292E;
+          @media screen and (max-width: 1024px) {
+            display: flex;
+            align-items: center;
+            height: 100%;
+          }
+          img{
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            @media screen and (max-width: 1024px) {
+              width: 15px;
+              height: 15px;
+            }
+          }
         }
       }
     }
