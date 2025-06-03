@@ -97,16 +97,42 @@
     max-width: 960px;
     font-size: 0.8em;
   }
-  .mywork-index-section-title {
-    display: flex;
-    justify-content: center;    
-    margin-bottom: 3rem;
-    @media screen and (max-width: 1024px) {
-      margin-bottom: 1.5rem;
-    }
-  }
   .mywork-index-about{
     margin: 0 1rem;
   }
 }
+.mywork-index-section-title {
+  display: flex;
+  justify-content: center;    
+  margin-bottom: 3rem;
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+#mywork-index-works{
+  width: 960px;
+  margin: 3rem auto;
+  padding: 0 4%;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    padding: 0 2%;
+    max-width: 960px;
+    font-size: 0.8em;
+  }
+  .mywork-index-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    @media screen and (max-width: 1024px) {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+      img{
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+    }
+  }
 }
