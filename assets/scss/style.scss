@@ -135,4 +135,28 @@
       }
     }
   }
-}
+  #mywork-index-news{
+    .mywork-index-news-list{
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 4%;
+      .mywork-index-news-item {
+        display: flex;
+        justify-content: flex-start;
+        gap: 4rem;
+        border-bottom: 1px solid #ccc;
+        padding: 1rem 4%;
+        &:first-of-type {
+          border-top: 1px solid #ccc;
+        }
+        time{
+        }
+        p{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      }
+    }
+  }
