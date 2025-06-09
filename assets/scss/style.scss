@@ -185,13 +185,11 @@
           label {
             width: 120px;
             font-size: 1rem;
-            font-weight: bold;
           }
     
           input,
           textarea {
             flex: 1;
-            padding: 1rem;
             font-size: 1rem;
             font-family: inherit;
             border: 1px solid #ccc;
@@ -210,7 +208,6 @@
           background-color: #1f2327;
           color: white;
           font-size: 1rem;
-          font-weight: bold;
           border: none;
           cursor: pointer;
           transition: background-color 0.3s ease;
@@ -241,6 +238,18 @@
             }
           }
         }
+      }
+    }
+    .mywork-index-footer{
+      width: 100%;
+      background-color:#24292E;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+      font-size: 0.8em;
+      @media screen and (max-width: 1024px) {
+        font-size: 0.7em;
+        padding: 1rem 0;
       }
     }
   }
