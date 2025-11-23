@@ -139,6 +139,24 @@ html {
       }
     }
   }
+  #popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+
+    img {
+      max-width: 90%;
+      max-height: 90%;
+      display: block;
+    }
+  }
+  #popup-overlay.active {
+    display: flex;
+  }
   #news {
     @media screen and (max-width: 1024px) {
       font-size: 0.8em;
