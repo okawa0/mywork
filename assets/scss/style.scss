@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h2{
+  font-size: 1.8em;
+}
+
 .mywork-index-body {
   font-family: "Zen Kaku Gothic Antique" ,"Arial", sans-serif;
   color: #24292e;
@@ -93,8 +97,8 @@ html {
 
   #about {
     width: 960px;
-    margin: 3rem auto;
-    padding: 0 4%;
+    margin: 8rem auto;
+    padding:0 4%;
     @media screen and (max-width: 1024px) {
       width: 100%;
       padding: 0 2%;
@@ -118,6 +122,7 @@ html {
     width: 960px;
     margin: 3rem auto;
     padding: 0 4%;
+    scroll-margin-top: 40px;
     @media screen and (max-width: 1024px) {
       width: 100%;
       padding: 0 2%;
@@ -158,6 +163,8 @@ html {
     display: flex;
   }
   #news {
+        scroll-margin-top: 40px;
+        margin-top:8rem;
     @media screen and (max-width: 1024px) {
       font-size: 0.8em;
       margin-bottom: 3rem;
@@ -191,7 +198,7 @@ html {
   #contact {
     max-width: 800px;
     width: 100%;
-    margin: 0 auto;
+    margin: 4rem auto 0;
     padding: 4rem 0;
 
     form {
